@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+
+    int x;
+    int number;
+
+    printf("Type your number:\n");
+    scanf("%d", &x);
+
+    printf ("Your number in decimal:\n");
+    printf ("%d\n", x);
+
+    printf ("Your number in octal:\n");
+    printf ("%o\n",x);
+
+    printf ("Your number in hexadecimal:\n");
+    printf ("%x\n",x);
+
+
+    return 0;
+}
