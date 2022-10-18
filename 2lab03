@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    
+    
+    float x2;
+    printf("Type your number:\n");
+    scanf("%f", &x2);
+   
+
+    printf ("Plavayucha koma:\n");
+    {
+        printf ("%.2f\n", x2);
+    }
+
+    printf ("Eksponenciyna forma:\n");
+    {
+        printf ("%e\n",x2);
+    }
+
+    printf ("Transformator g:\n");
+    {   
+        printf ("%g\n",x2);
+    }
+
+    return 0;
+}
