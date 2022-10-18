@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() { 
+
+    char s1[32],s2[32],s3[32],s4[32]; 
+
+    printf("Input Surname\n"); 
+    scanf("%s", s1);
+    
+    printf("Input Name\n"); 
+    scanf("%s", s2);
+
+    printf("Input Age\n"); 
+    scanf("%s", s3);
+
+    printf("Input City\n"); 
+    scanf("%s", s4);
+
+    printf("\tSurname\t \tName\t \tAge\t \tCity\n");printf("\t%s\t \t%s\t \t%s\t \t%s",s1,s2,s3,s4); 
+
+    return 0; 
+
+}
