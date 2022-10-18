@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <locale.h> 
+
+int main() {
+
+    printf ("\n Symbol output 'Y':\n");
+    { char s1='Y';
+    printf ("%c\n",s1);
+    }
+    printf ("\n Strichka output 'Ukraine will win!':\n");
+    { char s1[]="Ukraine will win!";
+    printf ("%s\n",s1);
+    }
+    printf ("\n Vkazivnuk output:\n");
+    { char s1[4]="XYZ";
+    printf ("%p\n",s1);
+    }
+
+    return 0;
